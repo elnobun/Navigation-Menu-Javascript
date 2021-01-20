@@ -22,8 +22,8 @@ active link maintains the active color when you hover over the
 link?*
 
 As simple those questions may be, I noticed that many developers
-approach this with so much complexity of code, when it can be 
-achieved using 7 lines of code.
+approach this with so much complexity, when it can be 
+achieved using fewer lines of readable code.
 
 Most people prefer using the `jQuery` approach, which to be
 honest, is very easy. However, replicating the same thing
@@ -31,9 +31,9 @@ in vanilla javascript, is equally easier.
 
 ### Steps
 - `Select all` the links or anchor tags in the document.
-- `Loop` through them, and add a `click` event listener on each link.
+- `Loop` through them, and add a `click` event on each link.
 - Get the current active link in the document
-- Keep `track` of the current active link by strong it in a variable.
+- Keep `track` of the current active link by storing it in a variable.
 - When a link is clicked, `replace` the current active link className
 with an empty string, and set the active class to the clicked link.
-- Let the new link className be set to active.
+- Set the new link className be set to active.
