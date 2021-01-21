@@ -26,9 +26,9 @@ body {
     font-size: 1.6rem;
     color: var(--color-body);
     line-height: 1.5;
+    margin: 0;
 }
 
-body,
 h1,
 h2,
 h3,
